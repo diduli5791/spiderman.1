@@ -1,0 +1,35 @@
+#flex-container{
+    display: flex;
+    background-color: aqua;
+   /* flex-direction: row;
+    flex-wrap: wrap;*/
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items:center ;
+    height: 400px;
+}
+
+#flex-container > div{
+    background-color: bisque;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+
+#flex-container > div> img{
+    width: 250px;
+    height: 250px;
+   
+}
+
+#flex1{
+    order: 3;
+}
+
+#flex3{
+    order: 2;
+}
+
+#flex2{
+    order: 1;
+}
