@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+header {
+    background-color: #FF0000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('spiderman-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #0000FF;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #FFFFFF;
+    color: #0000FF;
+    border: 2px solid #0000FF;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    color: #FF0000;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    color: #333333;
+}
+
+/* Footer */
+footer {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .cta-button {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+
+    section h2 {
+        font-size: 28px;
+    }
+
+    section p {
+        font-size: 16px;
+    }
+}
